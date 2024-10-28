@@ -12,5 +12,6 @@
              >
     <Grid>
         <oxy:PlotView Model="{Binding Graph}" Margin="0"/>
+
     </Grid>
 </UserControl>

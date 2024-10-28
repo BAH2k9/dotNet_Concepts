@@ -1,4 +1,5 @@
-﻿using IconTest.ViewModels;
+﻿using IconTest.Enums;
+using IconTest.ViewModels;
 using Stylet;
 using System;
 using System.Collections.Generic;
@@ -48,13 +49,17 @@ namespace IconTest.Pages
         async Task AddPoints()
         {
             var count = 0;
-            List<int> pointsToDraw = new() { 1, 1, 1, 2, 2, 2, 1, 1, 4, 4, 4, 4, 1, 1, 1, 1, 1 };
+            //List<int> pointsToDraw = new() { 1, 1, 1, 2, 2, 2, 1, 1, 4, 4, 4, 4, 1, 1, 1, 1, 1 };
 
-            while (count < pointsToDraw.Count)
+            List<Results> dataReceived = new() { Results.Working, Results.Working, Results.Working, Results.Working, Results.Working,
+                                                 Results.Broken, Results.Broken, Results.Broken, Results.Broken, Results.Broken, Results.Broken,
+                                                 Results.CatastrophicFailure, Results.CatastrophicFailure, Results.CatastrophicFailure, };
+
+            while (count < dataReceived.Count)
             {
                 foreach (BoxViewModel box in Boxes)
                 {
-                    box.GraphViewModel.AddPoint(pointsToDraw[count]);
+                    box.GraphViewModel.AddPoint((int)dataReceived[count]);
                     box.GraphViewModel.Redraw();
 
                     box.ImageViewModel.Beat();
