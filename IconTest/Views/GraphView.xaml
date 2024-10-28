@@ -11,6 +11,6 @@
              d:DataContext="{d:DesignInstance vm:GraphViewModel}"
              >
     <Grid>
-        <oxy:PlotView Model="{Binding Graph}" Margin="20" Background="AntiqueWhite"/>
+        <oxy:PlotView Model="{Binding Graph}" Margin="0"/>
     </Grid>
 </UserControl>

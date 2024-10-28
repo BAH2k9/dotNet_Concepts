@@ -16,7 +16,7 @@
         </Grid.ColumnDefinitions>
 
         <Grid Grid.Column="0">
-            <ItemsControl ItemsSource="{Binding Images}" Grid.Column="1">
+            <ItemsControl ItemsSource="{Binding Boxes}" Grid.Column="1">
                 <!-- Use UniformGrid for even item sizing -->
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
@@ -33,8 +33,5 @@
             </ItemsControl>
         </Grid>
 
-
-
-        <!--<ContentControl s:View.Model="{Binding GraphViewModel}" Grid.Column="3"/>-->
     </Grid>
 </Window>

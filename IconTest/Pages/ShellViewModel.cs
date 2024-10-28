@@ -12,16 +12,16 @@ namespace IconTest.Pages
     public class ShellViewModel : Screen
     {
 
-        BindableCollection<ImageViewModel> _Images;
-        public BindableCollection<ImageViewModel> Images
-        { get => _Images; set => SetAndNotify(ref _Images, value); }
+        BindableCollection<BoxViewModel> _Boxes;
+        public BindableCollection<BoxViewModel> Boxes
+        { get => _Boxes; set => SetAndNotify(ref _Boxes, value); }
 
         public ShellViewModel()
         {
-            Images = new BindableCollection<ImageViewModel>();
+            _Boxes = new BindableCollection<BoxViewModel>();
 
 
-            AddImages(4);
+            AddImages(10);
 
 
         }
@@ -34,11 +34,12 @@ namespace IconTest.Pages
             {
                 await Task.Delay(100);
 
-                Images.Add(new ImageViewModel());
+                Boxes.Add(new BoxViewModel());
 
                 count++;
             }
 
+            await Task.Delay(200);
             await AddPoints();
         }
 
@@ -51,18 +52,13 @@ namespace IconTest.Pages
 
             while (count < pointsToDraw.Count)
             {
-                foreach (ImageViewModel Image in Images)
+                foreach (BoxViewModel box in Boxes)
                 {
-                    Image.GraphViewModel.AddPoint(pointsToDraw[count]);
-                    Image.GraphViewModel.Redraw();
+                    box.GraphViewModel.AddPoint(pointsToDraw[count]);
+                    box.GraphViewModel.Redraw();
 
-                    Image.Beat();
-
-
+                    box.ImageViewModel.Beat();
                 }
-
-
-
 
                 count++;
                 await Task.Delay(1000);

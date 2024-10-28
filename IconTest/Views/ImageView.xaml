@@ -12,41 +12,23 @@
              d:DataContext="{d:DesignInstance vm:ImageViewModel}">
     <Grid>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="4*"/>
-            <ColumnDefinition Width="6*"/>
-        </Grid.ColumnDefinitions>
-
-        <Grid >
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-
-            <Image Grid.Column="0"
-                 Margin="0"
-                 Source="/Assets/HeartIcon.png"
-                 RenderTransformOrigin="0.5, 0.5"
-                 RenderTransform="{Binding T1}"
- >
-                <Image.Effect>
-                    <DropShadowEffect Color="{Binding ShadowColor}" 
-                        BlurRadius="{Binding BlurRadius}" 
-                        ShadowDepth="{Binding ShadowDepth}" 
-                        Direction="{Binding ShadowDirection}" 
-                        Opacity="{Binding ShadowOpacity}" />
-                </Image.Effect>
-            </Image>
-
-            <Viewbox Grid.Row="1" Margin="0">
-                <TextBlock Text="Thing" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Viewbox>
-
-        </Grid>
 
 
+        <Image Grid.Column="0"
+                Margin="0"
+                Source="/Assets/HeartIcon.png"
+                RenderTransformOrigin="0.5, 0.5"
+                RenderTransform="{Binding T1}"
+>
+            <Image.Effect>
+                <DropShadowEffect Color="{Binding ShadowColor}" 
+                    BlurRadius="{Binding BlurRadius}" 
+                    ShadowDepth="{Binding ShadowDepth}" 
+                    Direction="{Binding ShadowDirection}" 
+                    Opacity="{Binding ShadowOpacity}" />
+            </Image.Effect>
+        </Image>
 
-        <oxy:PlotView Model="{Binding PlotModel}" Grid.Column="1"/>
 
     </Grid>
 </UserControl>

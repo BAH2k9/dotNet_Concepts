@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|solutionrelative:icontest\\pages\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|c:\\users\\baile\\source\\repos\\icontest\\icontest\\pages\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|solutionrelative:icontest\\pages\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|c:\\users\\baile\\source\\repos\\icontest\\icontest\\views\\imageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|solutionrelative:icontest\\views\\imageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|c:\\users\\baile\\source\\repos\\icontest\\icontest\\viewmodels\\imageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|solutionrelative:icontest\\viewmodels\\imageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|c:\\users\\baile\\source\\repos\\icontest\\icontest\\viewmodels\\graphviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|solutionrelative:icontest\\viewmodels\\graphviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|c:\\users\\baile\\source\\repos\\icontest\\icontest\\views\\graphview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|solutionrelative:icontest\\views\\graphview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|c:\\users\\baile\\source\\repos\\icontest\\icontest\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|solutionrelative:icontest\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|c:\\users\\baile\\source\\repos\\icontest\\icontest\\pages\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|solutionrelative:icontest\\pages\\shellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|c:\\users\\baile\\source\\repos\\icontest\\icontest\\views\\boxview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|solutionrelative:icontest\\views\\boxview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|c:\\users\\baile\\source\\repos\\icontest\\icontest\\viewmodels\\boxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98D7C528-1C4A-4ACA-927F-A496FDAE5099}|IconTest\\IconTest.csproj|solutionrelative:icontest\\viewmodels\\boxviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 349,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +42,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GraphViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\ViewModels\\GraphViewModel.cs",
-              "RelativeDocumentMoniker": "IconTest\\ViewModels\\GraphViewModel.cs",
-              "ToolTip": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\ViewModels\\GraphViewModel.cs",
-              "RelativeToolTip": "IconTest\\ViewModels\\GraphViewModel.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAewBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T23:50:44.449Z",
+              "DocumentIndex": 1,
+              "Title": "GraphView.xaml",
+              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\Views\\GraphView.xaml",
+              "RelativeDocumentMoniker": "IconTest\\Views\\GraphView.xaml",
+              "ToolTip": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\Views\\GraphView.xaml",
+              "RelativeToolTip": "IconTest\\Views\\GraphView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T14:37:04.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "BoxView.xaml",
+              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\Views\\BoxView.xaml",
+              "RelativeDocumentMoniker": "IconTest\\Views\\BoxView.xaml",
+              "ToolTip": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\Views\\BoxView.xaml",
+              "RelativeToolTip": "IconTest\\Views\\BoxView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T14:23:31.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ShellView.xaml",
               "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\Pages\\ShellView.xaml",
               "RelativeDocumentMoniker": "IconTest\\Pages\\ShellView.xaml",
@@ -67,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\App.xaml",
               "RelativeDocumentMoniker": "IconTest\\App.xaml",
@@ -85,34 +96,43 @@
               "RelativeDocumentMoniker": "IconTest\\Pages\\ShellViewModel.cs",
               "ToolTip": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\Pages\\ShellViewModel.cs",
               "RelativeToolTip": "IconTest\\Pages\\ShellViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBcAAAAXAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wCYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T23:19:59.21Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "2fc629cf-645b-414e-9a98-78fb0de88b5b",
+        "Display": 1,
+        "X": -5,
+        "Y": 81,
+        "Width": 1634,
+        "Height": 956,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImageView.xaml",
-              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\Views\\ImageView.xaml",
-              "RelativeDocumentMoniker": "IconTest\\Views\\ImageView.xaml",
-              "ToolTip": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\Views\\ImageView.xaml",
-              "RelativeToolTip": "IconTest\\Views\\ImageView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-27T23:31:00.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ImageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\ViewModels\\ImageViewModel.cs",
-              "RelativeDocumentMoniker": "IconTest\\ViewModels\\ImageViewModel.cs",
-              "ToolTip": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\ViewModels\\ImageViewModel.cs",
-              "RelativeToolTip": "IconTest\\ViewModels\\ImageViewModel.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAwGAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "BoxViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\ViewModels\\BoxViewModel.cs",
+              "RelativeDocumentMoniker": "IconTest\\ViewModels\\BoxViewModel.cs",
+              "ToolTip": "C:\\Users\\baile\\source\\repos\\IconTest\\IconTest\\ViewModels\\BoxViewModel.cs",
+              "RelativeToolTip": "IconTest\\ViewModels\\BoxViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T23:30:43.376Z",
+              "WhenOpened": "2024-10-28T14:23:21.666Z",
               "EditorCaption": ""
             }
           ]

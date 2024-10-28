@@ -9,13 +9,6 @@ namespace IconTest.ViewModels
     public class ImageViewModel : Screen
     {
         int _Index = 0;
-        PlotModel _PlotModel;
-        public GraphViewModel GraphViewModel { get; set; }
-        public PlotModel PlotModel
-        {
-            get => _PlotModel;
-            set => SetAndNotify(ref _PlotModel, value);
-        }
 
         private ScaleTransform _T1;
         public ScaleTransform T1
@@ -60,38 +53,15 @@ namespace IconTest.ViewModels
         }
         public ImageViewModel()
         {
-            GraphViewModel = new GraphViewModel();
-
-            PlotModel = GraphViewModel.Graph;
-
             T1 = new(1, 1);
-
         }
 
-        async Task StartBeat()
-        {
-            var counter = 0;
-
-            while (counter < 20)
-            {
-
-                Beat();
-
-                counter += 1;
-            }
-        }
 
         public async void Beat()
         {
             Execute.OnUIThread(() =>
             {
                 T1 = new(1, 1);
-
-                //ShadowColor = Colors.Red;
-                //BlurRadius = 10;
-                //ShadowDepth = 2;
-                //ShadowDirection = 0;
-                //ShadowOpacity = 0.6;
 
             });
 
@@ -102,26 +72,8 @@ namespace IconTest.ViewModels
             {
                 T1 = new(0.9, 0.9);
 
-                //ShadowColor = Colors.AntiqueWhite;
-                //BlurRadius = 10;
-                //ShadowDepth = 1;
-                //ShadowDirection = 0;
-                //ShadowOpacity = 0.6;
-
             });
 
-            // await Task.Delay(1000);
         }
-
-        //public void AddPoint(int y)
-        //{
-
-        //    DataPoint point = new(_Index, y);
-
-        //    _GraphViewModel.AddPoint(point);
-
-        //    _Index++;
-
-        //}
     }
 }

@@ -24,9 +24,9 @@ namespace IconTest.ViewModels
             _Graph = new PlotModel();
 
 
-            _Graph.Series.Add(_LineSeries);
-            _Graph.Axes.Add(CreateAxisX());
-            _Graph.Axes.Add(CreateAxisY());
+            Graph.Series.Add(_LineSeries);
+            Graph.Axes.Add(CreateAxisX());
+            Graph.Axes.Add(CreateAxisY());
 
         }
 

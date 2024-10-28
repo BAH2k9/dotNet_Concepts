@@ -30,3 +30,6 @@ C:\Users\baile\source\repos\IconTest\IconTest\bin\Debug\net8.0-windows\OxyPlot.W
 C:\Users\baile\source\repos\IconTest\IconTest\bin\Debug\net8.0-windows\OxyPlot.Wpf.Shared.dll
 C:\Users\baile\source\repos\IconTest\IconTest\obj\Debug\net8.0-windows\Views\GraphView.g.cs
 C:\Users\baile\source\repos\IconTest\IconTest\obj\Debug\net8.0-windows\Views\GraphView.baml
+C:\Users\baile\source\repos\IconTest\IconTest\obj\Debug\net8.0-windows\Views\BoxView.g.cs
+C:\Users\baile\source\repos\IconTest\IconTest\obj\Debug\net8.0-windows\Views\BoxView.baml
+C:\Users\baile\source\repos\IconTest\IconTest\obj\Debug\net8.0-windows\IconTest.sourcelink.json
