@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\WPF\\DockableTabsTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35A74E4E-58AF-4804-AF29-5E9D8B18F82E}|DockableTabsTest\\DockableTabsTest.csproj|c:\\users\\baile\\source\\github\\personal\\dotnet_concepts\\wpf\\dockabletabstest\\dockabletabstest\\pages\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35A74E4E-58AF-4804-AF29-5E9D8B18F82E}|DockableTabsTest\\DockableTabsTest.csproj|solutionrelative:dockabletabstest\\pages\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35A74E4E-58AF-4804-AF29-5E9D8B18F82E}|DockableTabsTest\\DockableTabsTest.csproj|c:\\users\\baile\\source\\github\\personal\\dotnet_concepts\\wpf\\dockabletabstest\\dockabletabstest\\datatabview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{35A74E4E-58AF-4804-AF29-5E9D8B18F82E}|DockableTabsTest\\DockableTabsTest.csproj|solutionrelative:dockabletabstest\\datatabview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35A74E4E-58AF-4804-AF29-5E9D8B18F82E}|DockableTabsTest\\DockableTabsTest.csproj|c:\\users\\baile\\source\\github\\personal\\dotnet_concepts\\wpf\\dockabletabstest\\dockabletabstest\\datagridview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{35A74E4E-58AF-4804-AF29-5E9D8B18F82E}|DockableTabsTest\\DockableTabsTest.csproj|solutionrelative:dockabletabstest\\datagridview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35A74E4E-58AF-4804-AF29-5E9D8B18F82E}|DockableTabsTest\\DockableTabsTest.csproj|c:\\users\\baile\\source\\github\\personal\\dotnet_concepts\\wpf\\dockabletabstest\\dockabletabstest\\pages\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35A74E4E-58AF-4804-AF29-5E9D8B18F82E}|DockableTabsTest\\DockableTabsTest.csproj|solutionrelative:dockabletabstest\\pages\\shellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35A74E4E-58AF-4804-AF29-5E9D8B18F82E}|DockableTabsTest\\DockableTabsTest.csproj|c:\\users\\baile\\source\\github\\personal\\dotnet_concepts\\wpf\\dockabletabstest\\dockabletabstest\\datatabviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 349,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DataTabView.xaml",
               "DocumentMoniker": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\WPF\\DockableTabsTest\\DockableTabsTest\\DataTabView.xaml",
               "RelativeDocumentMoniker": "DockableTabsTest\\DataTabView.xaml",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ShellViewModel.cs",
               "DocumentMoniker": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\WPF\\DockableTabsTest\\DockableTabsTest\\Pages\\ShellViewModel.cs",
               "RelativeDocumentMoniker": "DockableTabsTest\\Pages\\ShellViewModel.cs",
@@ -78,7 +78,8 @@
               "RelativeToolTip": "DockableTabsTest\\Pages\\ShellViewModel.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T16:00:52.912Z"
+              "WhenOpened": "2024-11-08T16:00:52.912Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -93,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DataGridView.xaml",
               "DocumentMoniker": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\WPF\\DockableTabsTest\\DockableTabsTest\\DataGridView.xaml",
               "RelativeDocumentMoniker": "DockableTabsTest\\DataGridView.xaml",
