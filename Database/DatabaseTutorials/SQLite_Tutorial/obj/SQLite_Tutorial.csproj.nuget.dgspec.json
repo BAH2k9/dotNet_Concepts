@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\SQLite_Tutorial.csproj": {}
+    "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\SQLite_Tutorial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\SQLite_Tutorial.csproj": {
+    "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\SQLite_Tutorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\SQLite_Tutorial.csproj",
+        "projectUniqueName": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\SQLite_Tutorial.csproj",
         "projectName": "SQLite_Tutorial",
-        "projectPath": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\SQLite_Tutorial.csproj",
+        "projectPath": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\SQLite_Tutorial.csproj",
         "packagesPath": "C:\\Users\\baile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\obj\\",
+        "outputPath": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

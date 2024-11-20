@@ -13,7 +13,7 @@ namespace SQLite_Tutorial.EF
 
         public void WriteSingle(int n)
         {
-            Console.WriteLine($"\n\nRunning EF Test");
+            Console.WriteLine($"\n\nRunning EF Test WriteSingle");
 
             ISqliteAPI EF = new DataAccess_EF6(_ConnectionString);
 
@@ -78,6 +78,77 @@ namespace SQLite_Tutorial.EF
 
             EF.DeleteDb();
 
+        }
+
+        public void ReadSingle(int n)
+        {
+            Console.WriteLine($"\n\nRunning EF Test ReadSingle");
+
+            ISqliteAPI EF = new DataAccess_EF6(_ConnectionString);
+
+            EF.CreateDb();
+
+            List<double> times = new List<double>();
+
+
+            for (int i = 0; i < n; i++)
+            {
+                Stopwatch stopwatch = new Stopwatch();
+                var newPerson = new PersonModel($"{i}", $"{i}");
+
+
+                EF.SavePerson(newPerson);
+
+                stopwatch.Start();
+                EF.LoadMostRecentPerson();
+                stopwatch.Stop();
+
+                times.Add(stopwatch.ElapsedMilliseconds);
+
+            }
+
+            var avgWriteTime = times.Sum() / n;
+
+            Console.WriteLine($"Average insert Read time of: {avgWriteTime}ms\twith a sample size of: {n} ");
+
+            EF.DeleteDb();
+        }
+
+        public void ReadBatch(int batchSize, int numberOfBatches)
+        {
+            Console.WriteLine($"Running EF Test ReadBatch");
+
+            ISqliteAPI EF = new DataAccess_EF6(_ConnectionString);
+
+            EF.CreateDb();
+
+            List<double> times = new List<double>();
+
+            for (int j = 0; j < numberOfBatches; j++)
+            {
+                Stopwatch stopwatch = new Stopwatch();
+                var people = new List<PersonModel>();
+                for (int i = 0; i < batchSize; i++)
+                {
+                    people.Add(new PersonModel { FirstName = $"{i}", LastName = $"{i}" });
+                }
+
+                // Measure the time for batch insert
+
+                EF.BatchInsert(people);
+
+                stopwatch.Start();
+                EF.LoadBatch(batchSize);
+                stopwatch.Stop();
+
+                times.Add(stopwatch.ElapsedMilliseconds);
+            }
+
+            var avgWriteTimePerBatch = times.Average();
+
+            Console.WriteLine($"Average insert Write time of Batch: {avgWriteTimePerBatch}ms\twith a bacth size of{batchSize} and {numberOfBatches} Batches");
+
+            EF.DeleteDb();
         }
     }
 }

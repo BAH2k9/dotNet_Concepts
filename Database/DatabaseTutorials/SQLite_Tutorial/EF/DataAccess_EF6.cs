@@ -85,6 +85,42 @@ namespace SQLite_Tutorial.EF
 
         }
 
+        public List<PersonModel> LoadAllPeople()
+        {
+            throw new NotImplementedException();
+        }
 
+        public PersonModel LoadMostRecentPerson()
+        {
+
+            using (var context = new MyDbContext(_ConnectionString))
+            {
+                var mostRecentPerson = context.People
+                                          .OrderByDescending(p => p.Id)
+                                          .FirstOrDefault();
+
+                if (mostRecentPerson == null)
+                {
+                    throw new Exception("No Records found");
+                }
+
+                return mostRecentPerson;
+            }
+
+        }
+
+        public List<PersonModel> LoadBatch(int n)
+        {
+            using (var context = new MyDbContext(_ConnectionString))
+            {
+                var batch = context.People
+                                   .OrderByDescending(p => p.Id) // Sort by most recent (descending order)
+                                   .Take(n)             // Take only the specified batch size
+                                   .ToList();
+
+                return batch;
+
+            }
+        }
     }
 }

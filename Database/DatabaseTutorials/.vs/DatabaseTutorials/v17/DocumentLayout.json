@@ -1,26 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C8B834BE-F115-4362-BD2A-681C864C3CCC}|..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\repos\\db_tutorial\\sqlite_tutorial\\ef\\dataaccess_ef6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8B834BE-F115-4362-BD2A-681C864C3CCC}|..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\repos\\db_tutorial\\sqlite_tutorial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8B834BE-F115-4362-BD2A-681C864C3CCC}|..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\repos\\db_tutorial\\sqlite_tutorial\\ef\\eftests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8B834BE-F115-4362-BD2A-681C864C3CCC}|..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\repos\\db_tutorial\\sqlite_tutorial\\dapper\\dataaccess_dapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8B834BE-F115-4362-BD2A-681C864C3CCC}|..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\repos\\db_tutorial\\sqlite_tutorial\\dapper\\dappertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8B834BE-F115-4362-BD2A-681C864C3CCC}|..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\repos\\db_tutorial\\sqlite_tutorial\\isqliteapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -28,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 258,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,84 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EFTests.cs",
-              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\EF\\EFTests.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\EF\\EFTests.cs",
-              "ToolTip": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\EF\\EFTests.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\EF\\EFTests.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAswJAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T07:41:01.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataAccess_EF6.cs",
-              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\EF\\DataAccess_EF6.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\EF\\DataAccess_EF6.cs",
-              "ToolTip": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\EF\\DataAccess_EF6.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\EF\\DataAccess_EF6.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAIwGkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T07:40:53.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ISqliteAPI.cs",
-              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\ISqliteAPI.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\ISqliteAPI.cs",
-              "ToolTip": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\ISqliteAPI.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\ISqliteAPI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T07:37:30.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataAccess_Dapper.cs",
-              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\Dapper\\DataAccess_Dapper.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\Dapper\\DataAccess_Dapper.cs",
-              "ToolTip": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\Dapper\\DataAccess_Dapper.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\Dapper\\DataAccess_Dapper.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAcwEsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T07:30:59.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DapperTests.cs",
-              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\Dapper\\DapperTests.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\Dapper\\DapperTests.cs",
-              "ToolTip": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\Dapper\\DapperTests.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\Dapper\\DapperTests.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAcwIcAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T07:27:08.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\Program.cs",
-              "ToolTip": "C:\\Users\\baile\\source\\repos\\DB_Tutorial\\SQLite_Tutorial\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\repos\\DB_Tutorial\\SQLite_Tutorial\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T21:55:49.097Z",
-              "EditorCaption": ""
             }
           ]
         }

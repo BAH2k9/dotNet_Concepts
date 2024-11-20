@@ -9,7 +9,7 @@ namespace SQLite_Tutorial
 {
     public interface ISqliteAPI
     {
-        List<PersonModel> LoadPeople();
+        List<PersonModel> LoadAllPeople();
 
         void SavePerson(PersonModel person);
 
@@ -17,6 +17,10 @@ namespace SQLite_Tutorial
         void DeleteDb();
 
         void BatchInsert(List<PersonModel> people);
+
+        PersonModel LoadMostRecentPerson();
+
+        List<PersonModel> LoadBatch(int n);
 
     }
 }

@@ -56,7 +56,7 @@ namespace SQLite_Tutorial.Dapper
             }
         }
 
-        public List<PersonModel> LoadPeople()
+        public List<PersonModel> LoadAllPeople()
         {
             using (IDbConnection conn = new SQLiteConnection(_ConnectionString))
             {
@@ -65,6 +65,32 @@ namespace SQLite_Tutorial.Dapper
                 var output = conn.Query<PersonModel>(sqlCommand, new DynamicParameters());
 
                 return output.ToList();
+            }
+        }
+
+        public List<PersonModel> LoadBatch(int n)
+        {
+            using (IDbConnection conn = new SQLiteConnection(_ConnectionString))
+            {
+                string sqlCommand = @"select * from Person ORDER BY Id DESC LIMIT @N";
+
+                var output = conn.Query<PersonModel>(sqlCommand, new { N = n });
+
+                return output.ToList();
+            }
+        }
+
+        public PersonModel LoadMostRecentPerson()
+        {
+            using (IDbConnection conn = new SQLiteConnection(_ConnectionString))
+            {
+                string sqlCommand = "SELECT * FROM Person ORDER BY Id DESC LIMIT 1";
+
+                var output = conn.Query<PersonModel>(sqlCommand, new DynamicParameters());
+
+                var temp = output.ToList();
+
+                return temp[0];
             }
         }
 
