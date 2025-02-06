@@ -26,5 +26,10 @@
             Grid.Row="1"
             Grid.Column="1"
             Content="{Binding DisplayViewModel}" />
+
+        <ContentControl
+            Grid.Row="1"
+            Grid.Column="2"
+            Content="{Binding DisplayViewModelV2}" />
     </Grid>
 </Window>

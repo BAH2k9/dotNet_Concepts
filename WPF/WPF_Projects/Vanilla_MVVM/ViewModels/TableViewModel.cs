@@ -12,9 +12,10 @@ namespace Vanilla_MVVM.ViewModels
 {
     public class TableViewModel
     {
-        public ObservableCollection<Person> People { get; set; } = new ObservableCollection<Person>();
+        public ObservableCollection<Person> People { get; set; }
         public TableViewModel()
         {
+            People = new ObservableCollection<Person>();
             var Person1 = new Person { Id = 1, Name = "Bob" };
             var Person2 = new Person { Id = 2, Name = "Rob" };
             var Person3 = new Person { Id = 3, Name = "Tod" };
@@ -23,5 +24,7 @@ namespace Vanilla_MVVM.ViewModels
             People.Add(Person2);
             People.Add(Person3);
         }
+
+
     }
 }

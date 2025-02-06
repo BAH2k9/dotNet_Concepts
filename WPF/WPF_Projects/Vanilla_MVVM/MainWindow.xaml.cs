@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Collections.ObjectModel;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -8,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Vanilla_MVVM.Models;
 using Vanilla_MVVM.ViewModels;
 
 namespace Vanilla_MVVM
@@ -18,12 +20,15 @@ namespace Vanilla_MVVM
     public partial class MainWindow : Window
     {
         public TableViewModel DisplayViewModel { get; set; }
+        public TableViewModelV2 DisplayViewModelV2 { get; set; }
 
         public MainWindow()
         {
             InitializeComponent();
             DataContext = this;
             DisplayViewModel = new TableViewModel();
+            DisplayViewModelV2 = new TableViewModelV2();
+
         }
     }
 }
