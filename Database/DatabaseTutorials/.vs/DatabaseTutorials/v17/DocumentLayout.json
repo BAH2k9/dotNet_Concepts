@@ -34,8 +34,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 258,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -46,8 +58,7 @@
               "RelativeToolTip": "SQLite_Tutorial\\EF\\MyDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:16:27.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:16:27.786Z"
             },
             {
               "$type": "Document",
@@ -59,8 +70,7 @@
               "RelativeToolTip": "SQLite_Tutorial\\EF\\DataAccess_EF6.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAAACsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:16:05.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:16:05.334Z"
             },
             {
               "$type": "Document",
@@ -72,8 +82,7 @@
               "RelativeToolTip": "SQLite_Tutorial\\Dapper\\DataAccess_Dapper.cs",
               "ViewState": "AQIAAEsAAAAAAAAAAAAowGUAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:14:50.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:14:50.322Z"
             },
             {
               "$type": "Document",
@@ -85,16 +94,7 @@
               "RelativeToolTip": "SQLite_Tutorial\\Dapper\\DapperTests.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA1wCwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:07:00.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2024-11-21T23:07:00.933Z"
             },
             {
               "$type": "Document",
@@ -104,7 +104,7 @@
               "RelativeDocumentMoniker": "SQLite_Tutorial\\Program.cs",
               "ToolTip": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\Program.cs",
               "RelativeToolTip": "SQLite_Tutorial\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBAAAAAAAAAA",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T23:03:20.678Z",
               "EditorCaption": ""
@@ -119,8 +119,7 @@
               "RelativeToolTip": "SQLite_Tutorial\\Models\\PersonModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T22:58:23.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T22:58:23.07Z"
             }
           ]
         }
