@@ -1,10 +1,5 @@
 ﻿using SQLite_Tutorial.Models;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SQLite_Tutorial.Dapper
 {
@@ -43,7 +38,7 @@ namespace SQLite_Tutorial.Dapper
             }
 
 
-            var avgWriteTime = times.Sum() / n;
+            var avgWriteTime = times.Average();
 
             Console.WriteLine($"Average insert Write time of: {avgWriteTime}ms\twith a sample size of: {n} ");
 

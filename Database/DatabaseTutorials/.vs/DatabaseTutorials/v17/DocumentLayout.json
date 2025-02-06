@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\github\\personal\\dotnet_concepts\\database\\databasetutorials\\sqlite_tutorial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|solutionrelative:sqlite_tutorial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\github\\personal\\dotnet_concepts\\database\\databasetutorials\\sqlite_tutorial\\ef\\dataaccess_ef6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|solutionrelative:sqlite_tutorial\\ef\\dataaccess_ef6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\github\\personal\\dotnet_concepts\\database\\databasetutorials\\sqlite_tutorial\\ef\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|solutionrelative:sqlite_tutorial\\ef\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\github\\personal\\dotnet_concepts\\database\\databasetutorials\\sqlite_tutorial\\dapper\\dataaccess_dapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|solutionrelative:sqlite_tutorial\\dapper\\dataaccess_dapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\github\\personal\\dotnet_concepts\\database\\databasetutorials\\sqlite_tutorial\\dapper\\dappertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|solutionrelative:sqlite_tutorial\\dapper\\dappertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|c:\\users\\baile\\source\\github\\personal\\dotnet_concepts\\database\\databasetutorials\\sqlite_tutorial\\models\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F784EF1A-3B3D-45A3-82B6-B1409ECED5DF}|SQLite_Tutorial\\SQLite_Tutorial.csproj|solutionrelative:sqlite_tutorial\\models\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 258,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\EF\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "SQLite_Tutorial\\EF\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\EF\\MyDbContext.cs",
+              "RelativeToolTip": "SQLite_Tutorial\\EF\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:16:27.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataAccess_EF6.cs",
+              "DocumentMoniker": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\EF\\DataAccess_EF6.cs",
+              "RelativeDocumentMoniker": "SQLite_Tutorial\\EF\\DataAccess_EF6.cs",
+              "ToolTip": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\EF\\DataAccess_EF6.cs",
+              "RelativeToolTip": "SQLite_Tutorial\\EF\\DataAccess_EF6.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:16:05.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataAccess_Dapper.cs",
+              "DocumentMoniker": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\Dapper\\DataAccess_Dapper.cs",
+              "RelativeDocumentMoniker": "SQLite_Tutorial\\Dapper\\DataAccess_Dapper.cs",
+              "ToolTip": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\Dapper\\DataAccess_Dapper.cs",
+              "RelativeToolTip": "SQLite_Tutorial\\Dapper\\DataAccess_Dapper.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAowGUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:14:50.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DapperTests.cs",
+              "DocumentMoniker": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\Dapper\\DapperTests.cs",
+              "RelativeDocumentMoniker": "SQLite_Tutorial\\Dapper\\DapperTests.cs",
+              "ToolTip": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\Dapper\\DapperTests.cs",
+              "RelativeToolTip": "SQLite_Tutorial\\Dapper\\DapperTests.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:07:00.933Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -20,8 +97,30 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\Program.cs",
+              "RelativeDocumentMoniker": "SQLite_Tutorial\\Program.cs",
+              "ToolTip": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\Program.cs",
+              "RelativeToolTip": "SQLite_Tutorial\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:03:20.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonModel.cs",
+              "DocumentMoniker": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\Models\\PersonModel.cs",
+              "RelativeDocumentMoniker": "SQLite_Tutorial\\Models\\PersonModel.cs",
+              "ToolTip": "C:\\Users\\baile\\source\\GitHub\\Personal\\dotNet_Concepts\\Database\\DatabaseTutorials\\SQLite_Tutorial\\Models\\PersonModel.cs",
+              "RelativeToolTip": "SQLite_Tutorial\\Models\\PersonModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:58:23.07Z",
+              "EditorCaption": ""
             }
           ]
         }

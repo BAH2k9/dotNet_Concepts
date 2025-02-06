@@ -34,7 +34,7 @@ namespace SQLite_Tutorial.EF
         {
             using (var context = new MyDbContext(_ConnectionString))
             {
-                context.Database.EnsureCreated();
+                //context.Database.EnsureCreated();
 
                 context.People.Add(person);
 

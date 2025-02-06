@@ -13,7 +13,9 @@ namespace HelloWorldSample
             var DapperTest = new DapperTests(connectionString);
             var EFTest = new EFTests(connectionString);
 
-            //DapperTest.WriteSingle(100);
+            DapperTest.WriteSingle(1000);
+
+            DapperTest.WriteBatch(1000, 1000);
 
             //DapperTest.ReadSingle(100);
 
@@ -21,13 +23,13 @@ namespace HelloWorldSample
 
             //DapperTest.ReadBatch(100, 50);
 
-            EFTest.WriteSingle(100);
+            //EFTest.WriteSingle(100);
 
-            EFTest.ReadSingle(100);
+            //EFTest.ReadSingle(100);
 
-            EFTest.WriteBatch(100, 50);
+            //EFTest.WriteBatch(100, 50);
 
-            EFTest.ReadBatch(100, 50);
+            //EFTest.ReadBatch(100, 50);
 
         }
 
