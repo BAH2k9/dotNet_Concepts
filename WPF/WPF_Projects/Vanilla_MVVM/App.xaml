@@ -1,0 +1,15 @@
+﻿<Application x:Class="Vanilla_MVVM.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Vanilla_MVVM"
+             xmlns:vm="clr-namespace:Vanilla_MVVM.ViewModels"
+             xmlns:v="clr-namespace:Vanilla_MVVM.Views"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <DataTemplate DataType="{x:Type vm:TableViewModel}">
+                <v:TableView />
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
