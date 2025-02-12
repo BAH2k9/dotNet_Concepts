@@ -1,0 +1,69 @@
+# User-specific files
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]Release/
+[Dd]ebugTests/
+[Dd]ReleaseTests/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bin/
+obj/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Rider
+.idea/
+
+# ASP.NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NPM packages
+node_modules/
+
+# VS for Mac
+.vscode/
+
+# Local history
+.localhistory/
+
+# TypeScript v1 declaration files
+typings/
+
+# JetBrains Rider
+.idea/
+
+# .NET Core / .NET 5+
+.vs2017/
+.vs2019/
